@@ -1,0 +1,22 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    max-width: 1920px;
+    justify-content: center;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+.carousel-item img {
+    object-fit: cover;
+    max-height: 405px;
+}
+
+.content .thumbnail {
+    object-fit: cover;
+    max-height: 450px;
+    width: 100%;
+}
