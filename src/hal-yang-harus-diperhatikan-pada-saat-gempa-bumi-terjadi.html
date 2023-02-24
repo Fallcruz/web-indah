@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Indah</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+<body class="mx-auto">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+            <div class="container-fluid d-flex justify-content-between px-4 py-2 ">
+                <a class="navbar-brand" href="#">Universitas Bhakti Kencana</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Setting</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main" id="main">
+        <div class="container-fluid content px-0">
+            <!-- Content -->
+            <div class="col d-flex flex-column gap-3">
+                <div class="col">
+                    <div class="col px-4 my-3">
+                        <h3>Hal Yang Harus Diperhatikan Pada Saat Gempa Bumi Terjadi</h3>
+                        <div class="col pt-2 mb-2">
+                            <ol type="1" class="ps-4 m-0">
+                                <li class="ps-2 mb-2">
+                                    Didalam rumah seperti rumah, sekolah ataupun  rumah bertingkat :
+                                    <ol type="a" class="ps-3">
+                                        <li class="ps-2">
+                                            Guncangan akan terasa beberapa saat, selama jangka waktu itu, upayakan keselmatan diri anda dengan cara berlindung di bawah meja untuk menghindari dari benda-benda yang mungkin jatuh dan jendela kaca.
+                                        </li>
+                                        <li class="ps-2">
+                                            Lindungi kepala dengan bantal atau helm, atau berdirilah di bawah pintu. Bila sudah terasa aman, segera lari  keluar rumah.
+                                        </li>
+                                        <li class="ps-2">
+                                            Jika anda sedang memasak, segera matikan kompor serta mencabut dan mematikan semua peralatan yang menggunakan listrik untuk mencegah terjadinya kebakaran.
+                                        </li>
+                                        <li class="ps-2">
+                                            Bila keluar rumah, perhatikan kemungkinan pecahan kaca, genteng atau material lain. Tetap lindungi kepala anda dan segera menuju kelapangan terbuka.
+                                        </li>
+                                        <li class="ps-2">
+                                            Jangan berdiri di dekat tiang, pohon atau sumber listrik atau gedung yang mungkin roboh.
+                                        </li>
+                                        <li class="ps-2">
+                                            Jangan gunakan lift apabila sudah terasa guncangan, gunakanlah tangga darurat untuk evakuasi keluar bangunan. Apabila sudah didalam elevator, tekan semua tombol atau gunakan interphone untuk panggilan kepada pengelola gedung.
+                                        </li>
+                                        <li class="ps-2">
+                                            Kenali bagian bangunan yang memiliki struktur kuat, seperti pada sudut bangunan.
+                                        </li>
+                                        <li class="ps-2">
+                                            Apabila anda berada di dalam bangunan yang memiliki petugas keamanan dan ikuti instruksi evakuasi.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li class="ps-2 mb-2">
+                                    Didalam mobil :
+                                    <ol type="a" class="ps-3">
+                                        <li class="ps-2">
+                                            Saat terjadi gempa bumi dengan kekuatan besar, anda akan kehilangan kontrol terhadap mobil.
+                                        </li>
+                                        <li class="ps-2">
+                                            Jauhi persimpangan, pinggirkan mobil anda di kiri bahu jalan dan berhentilah.
+                                        </li>
+                                        <li class="ps-2">
+                                            Ikuti instruksi dari petugas berwenang dengan memperhatikan lingkungan sekitar atau melalui alat komunikasi lainnya seperti radio atau gawai.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li class="ps-2 mb-2">
+                                    Peringatan tsunami :
+                                    <ol type="a" class="ps-3">
+                                        <li class="ps-2">
+                                            Segera lakukan evakuasi menuju ke tempat tinggi,seperti bukit dan bangunan tinggi.
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid px-4">
+        <p class="float-end" onclick="topFunction()"><a href="">Kembali ke atas</a></p>
+        <p>&copy; 2022 Universitas Bhakti Kencana &middot; <a href="https://www.instagram.com/">Instagram</a> &middot;<a href="#">Terms</a></p>
+    </footer>
+
+    <script>
+        var main = document.getElementById('main');
+        let height = window.innerHeight;
+        main.style.minHeight = (height-112)+"px";
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
