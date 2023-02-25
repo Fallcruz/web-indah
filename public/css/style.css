@@ -5,6 +5,7 @@
 body {
     max-width: 1920px;
     justify-content: center;
+    background-color: #EEE6E1;
 }
 
 .navbar-brand {
